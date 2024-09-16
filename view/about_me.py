@@ -29,7 +29,7 @@ st.subheader("Experience", anchor= False)
 st.write(
     """
     - 5+ years of experience of extracting actionable insights from data
-    - strong proficiency in Python and other analytical tools
+    - Strong proficiency in Python and other analytical tools
     - Deep understanding of statistical principles and their applications
     - Demonstrated track record of delivering high-quality data-driven results
 """
