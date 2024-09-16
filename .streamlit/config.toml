@@ -11,7 +11,7 @@ secondaryBackgroundColor = "#586e75"
 # Color used for almost all text.
 textColor = "#423d3c"
 
-base = "light"
+base = "dark"
 
 
 [client]
