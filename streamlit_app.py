@@ -9,7 +9,7 @@ about_page = st.Page(
     default=True,
 )
 project_1_page = st.Page(
-    page="view/dashboard.py",
+    page="view/Dashboard.py",
     title="Dashboard",
     icon = ":material/bar_chart:"
 )
