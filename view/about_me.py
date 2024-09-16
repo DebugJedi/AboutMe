@@ -17,7 +17,7 @@ with col1:
 
 with col2:
     st.title("DebugJedi", anchor= False)
-    st.write(":red[A.K.A Priyank]")
+    st.write(":red[A.K.A 'Priyank']")
     st.write(
         "Business Analyst with 5+ years of experience."
     )
