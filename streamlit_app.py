@@ -25,8 +25,8 @@ about_page = st.Page(
 # Navigation setup [WITH SECTION]
 pg = st.navigation(
     {
-        "Info": [about_page],
-        "Projects": [project_1_page, project_2_page]
+        "Info": [about_page]
+        # ,"Projects": [project_1_page, project_2_page]
 
     }
 )
