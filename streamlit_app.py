@@ -8,11 +8,11 @@ about_page = st.Page(
     icon = ":material/account_circle:",
     default=True,
 )
-# project_1_page = st.Page(
-#     page="view/dashboard.py",
-#     title="Dashboard",
-#     icon = ":material/bar_chart:"
-# )
+project_1_page = st.Page(
+    page="view/emailgenerator.py",
+    title="Email Hiring Manager",
+    icon = ":material/description:"
+)
 # project_2_page = st.Page(
 #     page= "view/chatbot.py",
 #     title="Chat Bot",
@@ -26,7 +26,7 @@ about_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page]
-        # ,"Projects": [project_1_page, project_2_page]
+        ,"Projects": [project_1_page]
 
     }
 )
