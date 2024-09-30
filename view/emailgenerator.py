@@ -45,3 +45,5 @@ PromptTemplate & JsonOutputParser: The app uses customizable prompts and outputs
 This app is ideal for job seekers looking to simplify their application process and ensure that every email they send is professional, relevant, and tailored to the job at hand. Try it today to accelerate your job search!
 
 """
+
+st.write(lines)
