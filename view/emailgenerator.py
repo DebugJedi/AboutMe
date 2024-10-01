@@ -9,9 +9,10 @@ com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 with com1:
     url = 'https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/'
     st.markdown("# Email Hiring Manager")  
-    st.markdown("[](%s):material/link:"% url)    
+    
     
 with com2:
+    st.markdown("[link](%s):material/link:"% url)   
     st.image("Assets/old_computer.jpg")
 
 
