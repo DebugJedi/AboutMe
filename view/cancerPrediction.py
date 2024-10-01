@@ -1,5 +1,15 @@
 import streamlit as st
 
+com1, com2, com3 = st.columns([1,2,1], gap= 'small', vertical_alignment='center')
+
+url = 'https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/'
+with com1:
+    st.markdown("")  
+with com2:
+    # st.markdown("[link](%s):material/link:"% url)   
+    st.image("Assets/BreastCancerAffectsAll.jpg")
+with com3:
+    st.markdown("")
 
 url = "https://cancerprediction-j4wt7j.streamlit.app/"
 
