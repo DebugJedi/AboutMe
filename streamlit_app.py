@@ -16,7 +16,7 @@ project_1_page = st.Page(
 project_2_page = st.Page(
     page= "view/cancerPrediction.py",
     title="Cancer Prediction",
-    icon="🥼"
+    icon="⚕️"
 )
 
 # Navigation setup [WITHOUT SECTIONS]
