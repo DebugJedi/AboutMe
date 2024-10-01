@@ -7,7 +7,7 @@ with com1:
     st.markdown("")  
 with com2:
     # st.markdown("[link](%s):material/link:"% url)   
-    st.image("Assets/BreastCancerAffectsAll.jpg")
+    st.image("Assets/BreastCancer.jpg")
 with com3:
     st.markdown("")
 
