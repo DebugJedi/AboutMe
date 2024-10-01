@@ -5,14 +5,14 @@ import streamlit as st
 
 com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
-
+url = 'https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/'
 with com1:
-    url = 'https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/'
-    st.markdown("# Email Hiring Manager")  
+    
+    st.markdown("# Email Hiring Manager [link](%s)"% url)  
     
     
 with com2:
-    st.markdown("[link](%s):material/link:"% url)   
+    # st.markdown("[link](%s):material/link:"% url)   
     st.image("Assets/old_computer.jpg")
 
 
