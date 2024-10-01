@@ -27,7 +27,7 @@ how = """
 
 keyfeatures = """
 ## Key Features
-- **AI-Powered Resume and Job Posting Analysis:** The app is powered by the ***Llama-3.1-70b model*** , integrated through the *** ChatGroq API ***, which uses advanced natural language processing to analyze both the job description and the resume for tailored content generation.
+- **AI-Powered Resume and Job Posting Analysis:** The app is powered by the ***Llama-3.1-70b model*** , integrated through the ***ChatGroq API***, which uses advanced natural language processing to analyze both the job description and the resume for tailored content generation.
 
 - **Streamlined Email Writing:** By combining the user’s resume information with the job posting details, the app automates the process of crafting a personalized email that highlights relevant experience and skills based on the job requirements.
 """
@@ -45,6 +45,12 @@ This app is ideal for job seekers looking to simplify their application process 
 """
 
 st.markdown(introduction)
+com1, com2 = st.columns([1,3], gap= 'small', vertical_alignment='center')
+
+with com1:
+    st.image("Assets/old_computer.jpg")
+with com2:
+    st.write("")
 
 st.divider()
 
