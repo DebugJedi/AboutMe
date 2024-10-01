@@ -1,7 +1,7 @@
 import streamlit as st
 
-with open("assets/style.css") as f:
-        st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True) 
+# with open("assets/style.css") as f:
+#         st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True) 
 
 com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
