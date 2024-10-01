@@ -1,13 +1,13 @@
 import streamlit as st
 
- with open("assets/style.css") as f:
+with open("assets/style.css") as f:
         st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True) 
 
 com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
 
 with com1:
-    st.header("Email Hiring Manager")    
+    st.markdown('<a href = "https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/">"# Email Hiring Manager"</a>')    
     
 with com2:
     st.image("Assets/old_computer.jpg")
