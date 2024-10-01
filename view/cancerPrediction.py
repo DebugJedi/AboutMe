@@ -13,7 +13,7 @@ with com3:
 
 url = "https://cancerprediction-j4wt7j.streamlit.app/"
 
-com1, com2, com3 = st.columns([1,2,1], gap= 'small', vertical_alignment='center')
+com1, com2, com3 = st.columns([0.5,2,0.5], gap= 'small', vertical_alignment='center')
 with com1:
     st.markdown("")  
 with com2:
