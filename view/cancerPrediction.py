@@ -18,7 +18,7 @@ url = "https://cancerprediction-j4wt7j.streamlit.app/"
 #     st.markdown("")  
 # with com2:
 #     # st.markdown("[link](%s):material/link:"% url)   
-st.write("## [Cancer Prediction App](%s)🔗"% url)
+st.write("# [Cancer Prediction App](%s)🔗"% url)
 
 
 
