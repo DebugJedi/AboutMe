@@ -69,7 +69,15 @@ with com2:
 
 st.divider()
 
-st.markdown(keyfeatures)
+com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
+
+
+with com1:
+    st.markdown(keyfeatures)
+    
+with com2:
+    st.image("Assets/key.jpg")
+
 
 st.divider()
 
