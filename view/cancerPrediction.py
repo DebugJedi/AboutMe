@@ -1,6 +1,10 @@
 import streamlit as st
 
-st.title("Cancer Prediction App")
+
+url = "https://cancerprediction-j4wt7j.streamlit.app/"
+
+st.write("# [Cancer Prediction App](%s)"% url)
+
 
 intro = """
 Breast cancer is one of the leading causes of cancer-related deaths among women globally. Detecting whether a breast mass is malignant (cancerous) or benign (non-cancerous) at an early stage is crucial for improving patient outcomes. Traditional diagnostic methods, such as mammograms and biopsies, while effective, often result in unnecessary procedures and emotional distress due to false positives and other diagnostic limitations. To address these challenges, machine learning models, particularly neural networks, have shown immense potential in aiding more accurate and timely predictions in medical diagnostics.
