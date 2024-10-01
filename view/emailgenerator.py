@@ -4,7 +4,7 @@ com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
 
 with com1:
-    st.title("Email Hiring Manager")    
+    st.header("Email Hiring Manager")    
     
 with com2:
     st.image("Assets/old_computer.jpg")
