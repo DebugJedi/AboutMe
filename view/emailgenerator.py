@@ -1,6 +1,13 @@
 import streamlit as st
 
-st.title("Email Hiring Manager")
+com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
+
+
+with com1:
+    st.title("Email Hiring Manager")    
+    
+with com2:
+    st.image("Assets/old_computer.jpg")
 
 
 introduction = """
@@ -43,15 +50,10 @@ whats_behind = """
 This app is ideal for job seekers looking to simplify their application process and ensure that every email they send is professional, relevant, and tailored to the job at hand. Try it today to accelerate your job search!
 
 """
-com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
 
+st.markdown(introduction)
 
-with com1:
-    st.markdown(introduction)
-    
-with com2:
-    st.image("Assets/old_computer.jpg")
 
 st.divider()
 
