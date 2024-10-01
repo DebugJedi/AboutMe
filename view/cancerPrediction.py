@@ -18,7 +18,7 @@ with com1:
     st.markdown("")  
 with com2:
     # st.markdown("[link](%s):material/link:"% url)   
-    st.write("# [Cancer Prediction App](%s)"% url)
+    st.write("# [Cancer Prediction App](%s)🔗"% url)
 with com3:
     st.markdown("")
 
