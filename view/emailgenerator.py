@@ -12,33 +12,33 @@ By leveraging advanced AI models and natural language processing (NLP), this app
 """
 how = """
 ## How It Works
-### 1. Upload Your Resume or CV:
+### **1. Upload Your Resume or CV:**
 
 - The app allows users to upload their resume or CV in pdf format. The app uses this document to extract key details such as your skills, qualifications, and professional experience.
 
-### 2. Provide a Job Posting Link:
+### **2. Provide a Job Posting Link:**
 
 - Users input a link to the job posting they want to apply to. The app will analyze the job description, extract critical information like job requirements, responsibilities, and preferred skills, and use this information to customize the email.
 
-### 3. Email Generation:
+### **3. Email Generation:**
 
 - Using the data extracted from your resume and the job posting, the app generates a well-written and professional email addressed to the hiring manager. The email emphasizes your qualifications and makes a compelling case for why you are a good fit for the role.
 """
 
 keyfeatures = """
 ## Key Features
-- ** AI-Powered Resume and Job Posting Analysis: ** The app is powered by the *** Llama-3.1-70b model ***, integrated through the *** ChatGroq API ***, which uses advanced natural language processing to analyze both the job description and the resume for tailored content generation.
+- **AI-Powered Resume and Job Posting Analysis:** The app is powered by the ***Llama-3.1-70b model*** , integrated through the *** ChatGroq API ***, which uses advanced natural language processing to analyze both the job description and the resume for tailored content generation.
 
-- ** Streamlined Email Writing: ** By combining the user’s resume information with the job posting details, the app automates the process of crafting a personalized email that highlights relevant experience and skills based on the job requirements.
+- **Streamlined Email Writing:** By combining the user’s resume information with the job posting details, the app automates the process of crafting a personalized email that highlights relevant experience and skills based on the job requirements.
 """
 
 whats_behind = """
 ## Technologies Behind the App
-- ** ChatGroq and Llama-3.1-70b: ** The app uses *** ChatGroq *** with the *** Llama-3.1-70b *** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
+- **ChatGroq and Llama-3.1-70b:** The app uses ***ChatGroq*** with the ***Llama-3.1-70b*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
 
-- ** Document Loaders: ** The app leverages *** PyPDFLoader *** and *** WebBaseLoader *** from *** LangChain Community *** to load resumes and job postings from PDFs and web-based content. This ensures accurate data extraction and analysis.
+- **Document Loaders:** The app leverages ***PyPDFLoader*** and ***WebBaseLoader*** from ***LangChain Community*** to load resumes and job postings from PDFs and web-based content. This ensures accurate data extraction and analysis.
 
-- ** PromptTemplate & JsonOutputParser: ** The app uses customizable prompts and outputs parsed in structured formats, ensuring flexibility in email generation and a clear review process for the user.
+- **PromptTemplate & JsonOutputParser:** The app uses customizable prompts and outputs parsed in structured formats, ensuring flexibility in email generation and a clear review process for the user.
 
 This app is ideal for job seekers looking to simplify their application process and ensure that every email they send is professional, relevant, and tailored to the job at hand. Try it today to accelerate your job search!
 
