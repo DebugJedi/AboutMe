@@ -3,16 +3,18 @@ import streamlit as st
 # with open("assets/style.css") as f:
 #         st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True) 
 
-com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
+com1, com2, com3 = st.columns([3,0.5,0.5], gap= 'small', vertical_alignment='center')
 
 url = 'https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/'
 with com1:
     
-    st.markdown("# [Email Hiring Manager](%s) ##### link"% url)  
+    st.markdown("# [Email Hiring Manager](%s)"% url)  
     
     
 with com2:
+    st.write("🔗")
     # st.markdown("[link](%s):material/link:"% url)   
+with com3:
     st.image("Assets/old_computer.jpg")
 
 
