@@ -57,7 +57,15 @@ st.markdown(introduction)
 
 st.divider()
 
-st.markdown(how)
+com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
+
+
+with com1:
+    st.markdown(how)
+    
+with com2:
+    st.image("Assets/HIW.jpg")
+
 
 st.divider()
 
