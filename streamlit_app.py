@@ -13,11 +13,11 @@ project_1_page = st.Page(
     title="Email Hiring Manager",
     icon = ":material/description:"
 )
-# project_2_page = st.Page(
-#     page= "view/chatbot.py",
-#     title="Chat Bot",
-#     icon=":material/smart_toy:",
-# )
+project_2_page = st.Page(
+    page= "view/cancerPrediction.py",
+    title="Cancer Prediction",
+    # icon="",
+)
 
 # Navigation setup [WITHOUT SECTIONS]
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -26,7 +26,7 @@ project_1_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page]
-        ,"Projects": [project_1_page]
+        ,"Projects": [project_1_page, project_2_page]
 
     }
 )
