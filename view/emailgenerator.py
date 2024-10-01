@@ -7,7 +7,8 @@ com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
 
 with com1:
-    st.markdown('<a href = "https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/">"# Email Hiring Manager"</a>')    
+    url = 'https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/'
+    st.markdown("[# Email Hiring Manager](%s):material/link:"% url)    
     
 with com2:
     st.image("Assets/old_computer.jpg")
