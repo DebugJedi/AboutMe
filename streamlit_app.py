@@ -11,12 +11,11 @@ about_page = st.Page(
 project_1_page = st.Page(
     page="view/emailgenerator.py",
     title="Email Hiring Manager",
-    icon = ":material/description:"
+    icon = "📧"
 )
 project_2_page = st.Page(
     page= "view/cancerPrediction.py",
-    title="Cancer Prediction",
-    # icon="",
+    title="Cancer Prediction"
 )
 
 # Navigation setup [WITHOUT SECTIONS]
