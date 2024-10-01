@@ -8,7 +8,7 @@ com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 url = 'https://coldemail-5zdtzmmqe7nns6pgcekxuw.streamlit.app/'
 with com1:
     
-    st.markdown("# Email Hiring Manager [link](%s)"% url)  
+    st.markdown("# [Email Hiring Manager] (%s)"% url)  
     
     
 with com2:
