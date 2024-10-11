@@ -7,7 +7,7 @@ with com1:
     st.markdown("")  
 with com2:
     # st.markdown("[link](%s):material/link:"% url)   
-    st.image("Assets/BreastCancer.jpg")
+    st.image("Assets/ComputerVision.jpg")
 with com3:
     st.markdown("")
 
@@ -18,7 +18,7 @@ url = 'https://computervision-w7a5mhbcfnbui4.streamlit.app/'
 #     st.markdown("")  
 # with com2:
 #     # st.markdown("[link](%s):material/link:"% url)   
-st.write("# [Computer Vision (object detection)](%s)🔗"% url)
+st.write("# [Object Detection](%s)🔗"% url)
 
 
 
