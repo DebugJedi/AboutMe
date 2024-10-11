@@ -57,7 +57,7 @@ This app is ideal for job seekers looking to simplify their application process 
 """
 whats_behind1 = """
 ## Technologies Behind the App
-- **<span style="background-color: lightblue;">ChatGroq</span> and <span style="background-color: lightgreen;">Llama-3.1-70b</span>:** The app uses ***<span style="background-color: lightyellow;">ChatGroq</span>*** with the ***<span style="background-color: lightcoral;">Llama-3.1-70b</span>*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
+- **<span style="background-color: lightblue; color: black;">ChatGroq</span> and <span style="background-color: lightgreen;">Llama-3.1-70b</span>:** The app uses ***<span style="background-color: lightyellow;">ChatGroq</span>*** with the ***<span style="background-color: lightcoral;">Llama-3.1-70b</span>*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
 
 - **Document Loaders:** The app leverages ***<span style="background-color: lightcyan;">PyPDFLoader</span>*** and ***<span style="background-color: lightgoldenrodyellow;">WebBaseLoader</span>*** from ***<span style="background-color: lavender;">LangChain Community</span>*** to load resumes and job postings from PDFs and web-based content. This ensures accurate data extraction and analysis.
 
