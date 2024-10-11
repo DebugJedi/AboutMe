@@ -46,7 +46,7 @@ keyfeatures = """
 
 whats_behind = """
 ## Technologies Behind the App
-- :red**ChatGroq and Llama-3.1-70b:** The app uses ***ChatGroq*** with the ***Llama-3.1-70b*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
+- **ChatGroq and Llama-3.1-70b:** The app uses ***ChatGroq*** with the ***Llama-3.1-70b*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
 
 - **Document Loaders:** The app leverages ***PyPDFLoader*** and ***WebBaseLoader*** from ***LangChain Community*** to load resumes and job postings from PDFs and web-based content. This ensures accurate data extraction and analysis.
 
@@ -54,6 +54,16 @@ whats_behind = """
 
 This app is ideal for job seekers looking to simplify their application process and ensure that every email they send is professional, relevant, and tailored to the job at hand. Try it today to accelerate your job search!
 
+"""
+whats_behind1 = """
+## Technologies Behind the App
+- **<span style="background-color: lightblue;">ChatGroq</span> and <span style="background-color: lightgreen;">Llama-3.1-70b</span>:** The app uses ***<span style="background-color: lightyellow;">ChatGroq</span>*** with the ***<span style="background-color: lightcoral;">Llama-3.1-70b</span>*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
+
+- **Document Loaders:** The app leverages ***<span style="background-color: lightcyan;">PyPDFLoader</span>*** and ***<span style="background-color: lightgoldenrodyellow;">WebBaseLoader</span>*** from ***<span style="background-color: lavender;">LangChain Community</span>*** to load resumes and job postings from PDFs and web-based content. This ensures accurate data extraction and analysis.
+
+- **PromptTemplate & JsonOutputParser:** The app uses customizable prompts and outputs parsed in structured formats, ensuring flexibility in email generation and a clear review process for the user.
+
+This app is ideal for job seekers looking to simplify their application process and ensure that every email they send is professional, relevant, and tailored to the job at hand. Try it today to accelerate your job search!
 """
 
 
@@ -86,6 +96,6 @@ with com2:
 
 st.divider()
 
-st.markdown(whats_behind)
+st.markdown(whats_behind1, unsafe_allow_html=True)
 
 st.divider()
