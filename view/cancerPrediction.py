@@ -48,6 +48,7 @@ The App represents the intersection of machine learning and healthcare, providin
 st.markdown(intro)
 
 st.divider()
+st.write("[Link](%s) to the app."% url)
 
 st.markdown(Features)
 

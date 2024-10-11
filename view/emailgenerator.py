@@ -61,7 +61,7 @@ st.markdown(introduction)
 
 
 st.divider()
-
+st.write("[Link](%s) to the app."% url)
 com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
 
