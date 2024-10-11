@@ -42,7 +42,7 @@ st.write(
     """
     - Programming: Python (Sckit-learn, Pandas, NumPy, SciPy, TensorFlow, Keras, Statsmodels, NLTK), SQL
     - Data visulization: PowerBi, Tableau
-    - Modeling: Linear Regression, Logistic Regression, Decision Trees, XGBoost
+    - Modeling: Linear Regression, Logistic Regression, Decision Trees, XGBoost, LLM(Llama, LangChain, ChatGroq, OpenAI)
     - Databases: MySQL, SQLServer
 """
 )

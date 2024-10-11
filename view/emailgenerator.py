@@ -46,7 +46,7 @@ keyfeatures = """
 
 whats_behind = """
 ## Technologies Behind the App
-- **ChatGroq and Llama-3.1-70b:** The app uses ***ChatGroq*** with the ***Llama-3.1-70b*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
+- **:redChatGroq and Llama-3.1-70b:** The app uses ***ChatGroq*** with the ***Llama-3.1-70b*** model to handle the complex language tasks involved in understanding resumes and job descriptions, ensuring the email is professionally crafted.
 
 - **Document Loaders:** The app leverages ***PyPDFLoader*** and ***WebBaseLoader*** from ***LangChain Community*** to load resumes and job postings from PDFs and web-based content. This ensures accurate data extraction and analysis.
 
