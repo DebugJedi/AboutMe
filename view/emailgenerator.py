@@ -59,9 +59,9 @@ This app is ideal for job seekers looking to simplify their application process 
 
 st.markdown(introduction)
 
-
-st.divider()
 st.write("[Link](%s) to the app."% url)
+st.divider()
+
 com1, com2 = st.columns([3,1], gap= 'small', vertical_alignment='center')
 
 
