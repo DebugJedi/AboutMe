@@ -44,7 +44,7 @@ With the current deployment the model is trained to detect some common hand gest
 st.markdown(intro)
 
 st.divider()
-
+st.write("[Link](%s) to the app."% url)
 # st.markdown(Features)
 
 # st.divider()
