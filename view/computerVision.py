@@ -25,6 +25,7 @@ st.write("# [Object Detection](%s)🔗"% url)
 
 intro = """
 I have developed a real-time object detection app using the YOLO 11 model, deployed on Streamlit. This project demonstrates how easily computer vision models can be trained and applied for practical uses, such as self-driving cars and surveillance. YOLO (You Only Look Once) is a state-of-the-art model designed for fast and accurate object detection. Version 11 of YOLO, as detailed in the Ultralytics documentation, offers enhanced performance and flexibility, making it ideal for real-time applications where speed and precision are critical. The app showcases the power of this model, enabling users to interact with live object detection capabilities.
+With the current deployment the model is trained to detect some common hand gesture like, OK, ThumbsUp, ThumbsDown, FingersCross, and PeaceOut.
 """
 
 # Features = """
